@@ -1,51 +1,121 @@
-html {
- background-color: white
+.box {
+  margin-top: 80px;
+  margin-left: 220px;
+  width: 300px;
+  height: 200px;
+  background: #528436;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #7CE577;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-.navigation-left {
-  display: inline-block;
-  float: left;
- margin-top: 60px;
-  margin-left: 295px;
-}
-
-.navigation-right {
-  display: inline-block;
-  float: left;
-  margin-top: 60px;
-  margin-left: 10px;
+.box p {
+  color: #7CE577;
+  font-family: 'PingFang TC';
+  font-size: 10px;
+  margin-top: 1px;
+  margin-left: 30px;
+  font-weight: 1;
 }
 
-.navigation-middle {
-  display: inline-block;
-  float: left;
-  margin-top: 60px;
-  margin-left: 10px;
-}
-
-nav a {
-  margin-left: 62px;
-  color: #393B44;
+.box h1 {
+  color: white;
+  font-family: 'PingFang TC';
   font-size: 16px;
+  margin-left: 30px;
+  padding-top: 50px;
+  font-weight: 1;
+}
+
+.box #head {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 30px;
+  color: white;
+  font-family: 'PingFang TC';
+  font-size: 12px;
+  font-weight: 1;
+}
+
+#box2 {
+  float: right;
+  margin-right: 220px;
+  border-color: #FFC857;
+  background-color: #987122;
+}
+
+#box1 {
+  float: left;
+}
+
+#box2 p {
+  color: #FFC857;
+}
+
+.back-button2 {
+  margin-top: 8px;
+  margin-left: 5px;
+  position: absolute;
+}
+
+.back-button2 .back {
+  font-family: 'PingFang TC';
   text-decoration: none;
+  color: #393B44;
+  font-weight: 400;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
-    font-size: 16px;
+.back-button2 .back:hover {
+  color: black;
 }
 
-.active {
-   font-size: 18px;
-    color: black;
-    font-style: bold;
+.circle {
+  margin-top: -35px;
+  margin-left: -35px;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #7CE577;
 }
 
-.contact-form{
-    margin-left: 50px;
-    margin-right: 50px;
-    background-color: white;
+#circle2 {
+  background-color: #FFC857;
+}
+
+#envelope {
+  margin-left: 35px;
+  margin-top: 35px;
+  color: white;
+  transform: scale(2.5);
+}
+
+#message {
+  margin-left: 35px;
+  margin-top: 35px;
+  color: white;
+  transform: scale(2.5);
+}
+
+.logo3 {
+  height: 140px;
+  width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo3 img {
+  margin-top: 8px;
+  margin-bottom: 1px;
+}
+
+#title1 {
+  font-size: 20px;
+  color: #393B44;
+  text-align: center;
+  margin-top: 17px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  font-family: 'PingFang TC';
 }
