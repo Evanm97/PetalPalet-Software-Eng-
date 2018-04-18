@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+}
+
+header {
+  height: 280px;
+  width: 100%;
+  font-family: 'PingFang TC';
+}
+
+.top {
+  height: 182px;
+  width: auto;
+}
+
+.logo {
+  height: 180px;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+.logo img {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.navigation-left {
+  display: inline-block;
+  float: left;
+  margin-top: 80px;
+  margin-left: 295px;
+}
+
+.navigation-right {
+  display: inline-block;
+  float: right;
+  margin-top: 80px;
+  margin-right: 383px;
+}
+
+nav a {
+  margin-left: 62px;
+  color: #393B44;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#contact:hover {
+  color: #7BC950;
+}
+#about:hover {
+  color: #FFC857;
+}
+#popular:hover {
+  color: #E9724C;
+}
+
+#login:hover {
+  color: #00A8E8;
+}
+
+#title {
+  font-size: 20px;
+  color: #393B44;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px
+}
+
+#petal {
+  font-weight: bold;
+}
+
+#kicker {
+  text-align: center;
+  color: #707070;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.main {
+  width: 100%;
+  height: 1500px;
+}
+
+.main .palette {
+  display: inline-block;
+  height: 320px;
+  width: 23.91%;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.main #svg {
+  height: 85%;
+  width: 220px;
+  margin-left: 42px;
+  margin-right: 40px;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.desc {
+  margin-top: -10px;
+  text-align: center;
+}
+
+#heart {
+  color: #ABAFC4;
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.desc p {
+  color: #ABAFC4;
+  font-family: 'PingFang TC';
+  display: inline-block;
+}
+
+#this:hover #heart{
+  color: #e95787;
+}
+
+#this:hover #rating{
+  color: #e95787;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+  background: white;
+}
+
+g:hover{
+  transform-origin: 50% 50%;
+  transform: scale(1.03);
+}
+
+g:hover .text{
+  transform-origin: 50% 50%;
+  transform: scale(.97);
+}
+
+.petal .text {
+  display: none;
+  pointer-events: none;
+  font-family: 'PingFang TC';
+  text-decoration: none;
+  fill: #ABAFC4;
+}
+
+.petal.selected .text {
+  display: block;
+  -webkit-animation: fadeIn 0.3s;
+  animation: fadeIn 0.3s;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+.logout-button {
+  margin-top: 5px;
+  margin-left: 1350px;
+  position: absolute;
+}
+
+.logout-button #logout {
+  font-family: 'PingFang TC';
+  text-decoration: none;
+  color: #393B44;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.logout-button #logout:hover {
+  color: black;
+}
