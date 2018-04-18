@@ -1,6 +1,6 @@
 <body>
   <div class="back-button">
-    <a href="/" class="back">< Back</a>
+    <a href="/" class="back">Back</a>
   </div>
 
   <div class="logo2">
@@ -12,9 +12,12 @@
       <form class="login" role="form" id="login-form">
         <input type="text" placeholder="Username" id="inputUsername">
         <input type="text" placeholder="Password" id="inputPassword">
-        <button type="submit">Sign In</button>
+        <button type="submit">Sign In</button><br>
+	<div class="g-signin2" data-onsuccess="onSignIn" data-width="270" data-longtitle="true"></div>
         <p class="message">New to us? <a href="/users/register">Sign Up</a></p>
+          <p class="message2"><a href="#" onclick="signOut();">Sign out</a></p>
       </form>
     </div>
   </div>
 </body>
+
