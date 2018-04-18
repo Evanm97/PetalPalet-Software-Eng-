@@ -1,1 +1,179 @@
+* {
+  margin: 0px;
+}
 
+.break {
+  height: 40px;
+  width: 100%;
+}
+
+.back {
+  text-decoration: none;
+  font-family: 'PingFang TC';
+  color: #393B44;
+  font-weight: 400;
+}
+
+.back:hover {
+  color: black;
+}
+
+.button-area {
+  margin-left: 10px;
+  padding-top: 8px;
+}
+
+.image {
+  width: 60%;
+  height: 720px;
+  float: left;
+  background-image: url(http://www.color-hex.com/palettes/5338.png);
+}
+
+.descr {
+  width: 40%;
+  height: 720px;
+  float: right;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heading {
+  display: block;
+  margin-top: 0;
+  color: #525557;
+  font-size: 41px;
+  line-height: 54px;
+  text-align: left;
+  letter-spacing: -.01em;
+  font-family: Nova,sans-serif;
+  font-weight: 300;
+  margin-left: 125px;
+  margin-top: 100px;
+}
+
+.small-desc {
+  display: block;
+  margin-left: 125px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: Nova,sans-serif;
+  color: rgba(39,42,45,.5);
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: .01em;
+  text-decoration: none;
+}
+
+.next-button {
+  margin-left: 256px;
+  margin-top: 150px;
+}
+
+.image-2 {
+  width: 60%;
+  height: 720px;
+  float: left;
+  background-image: url(https://wallpaperbrowse.com/media/images/OwsbW6.jpg);
+}
+
+.desc-2 {
+  width: 40%;
+  height: 720px;
+  float: right;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0px;
+}
+
+.image-3 {
+  width: 60%;
+  height: 720px;
+  float: left;
+  background-image: url(https://wallpaperbrowse.com/media/images/OwsbW6.jpg);
+}
+
+.desc-3 {
+  width: 40%;
+  height: 720px;
+  float: right;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.next-button-2 {
+  margin-left: 256px;
+  margin-top: 20px;
+}
+
+.div-line {
+    height: 1px;
+    margin-top: 34.4px;
+    background-color: rgba(51,51,51,.08);
+}
+
+.div-line-2 {
+    height: 1px;
+    margin-top: 57px;
+    background-color: rgba(51,51,51,.08);
+}
+
+.heading-3 {
+  padding-top: 150px;
+  display: block;
+  color: #525557;
+  font-size: 41px;
+  line-height: 54px;
+  text-align: left;
+  letter-spacing: -.01em;
+  font-family: Nova,sans-serif;
+  font-weight: 300;
+  margin-left: 125px;
+  margin-top: 100px;
+}
+
+.small-desc-3 {
+  display: block;
+  margin-left: 125px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: Nova,sans-serif;
+  color: rgba(39,42,45,.5);
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: .01em;
+  text-decoration: none;
+}
+
+.button1 {
+  background-color: #85DBFB;
+  -webkit-border-radius: 1em;
+  height: 40px;
+  width: 150px;
+  margin-top: 40px;
+  margin-left: 190px;
+}
+
+.start {
+  font-family: Nova,sans-serif;
+  color: white;
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: .01em;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 7px;
+}
+
+#button-link {
+  text-decoration: none;
+}
