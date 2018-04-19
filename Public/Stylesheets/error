@@ -1,0 +1,24 @@
+.errorLogo {
+  height: 280px;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+.error-message {
+  margin-left: 581px;
+  margin-top: 15px;
+  color: #939496;
+  font-size: 12px;
+  font-family: 'PingFang TC';
+}
+
+.error-message a {
+  color: #7CE577;
+  text-decoration: none;
+}
+
+.error-message a:hover{
+  color: #6CC768;
+}
