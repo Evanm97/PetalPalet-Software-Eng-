@@ -37,8 +37,6 @@ router.get('/feed', function(req, res, next) {
         }
 });
 
-
-
 /**
  * Adds comments to our database
  */
@@ -107,4 +105,3 @@ function verifyJwt(jwtString) {
 
 
 module.exports = router;
-
