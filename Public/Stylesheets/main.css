@@ -110,7 +110,7 @@ nav a {
   text-align: center;
 }
 
-#heart {
+#heart, #heart1, #heart2, #heart3, #heart4, #heart5, #heart6, #heart7, #heart8, #heart9, #heart10, #heart11, #heart12, #heart13, #heart14, #heart15, #heart16 {
   color: #ABAFC4;
   display: inline-block;
   margin-left: 0px;
@@ -123,11 +123,11 @@ nav a {
   display: inline-block;
 }
 
-#this:hover #heart{
+#this:hover #heart, #this:hover #heart1, #this:hover #heart2, #this:hover #heart3, #this:hover #heart4, #this:hover #heart5, #this:hover #heart6, #this:hover #heart7, #this:hover #heart8, #this:hover #heart9, #this:hover #heart10, #this:hover #heart11, #this:hover #heart12, #this:hover #heart13, #this:hover #heart14, #this:hover #heart15, #this:hover #heart16{
   color: #e95787;
 }
 
-#this:hover #rating{
+#this:hover #rating, #this:hover #rating1, #this:hover #rating2, #this:hover #rating3, #this:hover #rating4, #this:hover #rating5, #this:hover #rating6, #this:hover #rating7, #this:hover #rating8, #this:hover #rating9, #this:hover #rating10, #this:hover #rating11, #this:hover #rating12, #this:hover #rating13, #this:hover #rating14, #this:hover #rating15, #this:hover #rating16{
   color: #e95787;
 }
 
