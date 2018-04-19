@@ -1,0 +1,6 @@
+<body>
+  <div class="errorLogo">
+    <img src="images/error.svg" alt="">
+  </div>
+  <p class="error-message">You must be logged in to access this page <a href="users/login">Log in</a></p>
+</body>
